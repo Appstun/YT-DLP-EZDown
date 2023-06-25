@@ -1,0 +1,2 @@
+C:\Users\appst\Desktop\Coding\Visual Studio - Produkte\YT-DLP-EZDown\bin\Debug\net6.0\win-x64\publish\YT-DLP-EZDown.pdb
+C:\Users\appst\Desktop\Coding\Visual Studio - Produkte\YT-DLP-EZDown\bin\Debug\net6.0\win-x64\publish\YT-DLP-EZDown.exe
