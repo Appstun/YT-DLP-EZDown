@@ -67,7 +67,7 @@ namespace YT_DLP_EZDown
                 }
                 else
                 {
-                    GUI.writeColoredLine("§3ffmpeg.exe gefunden! Aber nicht da wo die Datei sein sollte. Wird verschoben ...");
+                    GUI.writeColoredLine("§3 ffmpeg.exe gefunden! Aber nicht da wo die Datei sein sollte. Wird verschoben ...");
                     File.Move(Program.outDirFfmpegPath, Program.ffmpegPath);
 
                     GUI.writeColoredLine("§2Verschieben der ffmpeg.exe abgeschlossen!");
@@ -107,7 +107,7 @@ namespace YT_DLP_EZDown
 
         static string DownloadString(string url)
         {
-            GUI.writeColoredLine($"§7Hole Informationen von '{url}' ...");
+            GUI.writeColoredLine($"§7 Hole Informationen von '{url}' ...");
             using (var client = new WebClient())
             {
                 client.Headers.Add("User-Agent", "Mozilla/5.0");
@@ -117,7 +117,7 @@ namespace YT_DLP_EZDown
 
         static void DownloadFile(string url, string savePath)
         {
-            GUI.writeColoredLine($"§7Downloade '{url}' ...");
+            GUI.writeColoredLine($"§7 Downloade '{url}' ...");
             using (var client = new WebClient())
             {
                 client.Headers.Add("User-Agent", "Mozilla/5.0");
