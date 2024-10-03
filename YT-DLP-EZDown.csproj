@@ -2,13 +2,15 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
 		<RootNamespace>YT_DLP_EZDown</RootNamespace>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<SelfContained>true</SelfContained>
 		<Nullable>enable</Nullable>
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
 		<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+		<Version>2.0.0</Version>
+		<Authors>Appstun</Authors>
 	</PropertyGroup>
 
 	<Target Name="EnsureFodyWeaversFile" BeforeTargets="AfterCompile">

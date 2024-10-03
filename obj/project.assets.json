@@ -1,39 +1,39 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {},
-    "net6.0/win-x64": {}
+    "net8.0-windows10.0.17763": {},
+    "net8.0-windows10.0.17763/win-x64": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net8.0-windows10.0.17763": []
   },
   "packageFolders": {
-    "C:\\Users\\appst\\.nuget\\packages\\": {}
+    "C:\\Users\\Appstun\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\appst\\Desktop\\Coding\\Visual Studio - Produkte\\YT-DLP-EZDown\\YT-DLP-EZDown.csproj",
+      "projectUniqueName": "C:\\Users\\Appstun\\Documents\\GitHub\\YT-DLP-EZDown\\YT-DLP-EZDown.csproj",
       "projectName": "YT-DLP-EZDown",
-      "projectPath": "C:\\Users\\appst\\Desktop\\Coding\\Visual Studio - Produkte\\YT-DLP-EZDown\\YT-DLP-EZDown.csproj",
-      "packagesPath": "C:\\Users\\appst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\appst\\Desktop\\Coding\\Visual Studio - Produkte\\YT-DLP-EZDown\\obj\\",
+      "projectPath": "C:\\Users\\Appstun\\Documents\\GitHub\\YT-DLP-EZDown\\YT-DLP-EZDown.csproj",
+      "packagesPath": "C:\\Users\\Appstun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Appstun\\Documents\\GitHub\\YT-DLP-EZDown\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\appst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Appstun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0-windows10.0.17763.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0-windows10.0.17763": {
+          "targetAlias": "net8.0-windows10.0.17763.0",
           "projectReferences": {}
         }
       },
@@ -41,11 +41,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0-windows10.0.17763": {
+        "targetAlias": "net8.0-windows10.0.17763.0",
         "imports": [
           "net461",
           "net462",
@@ -60,23 +65,30 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[8.0.8, 8.0.8]"
+          },
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.17763.34, 10.0.17763.34]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[8.0.8, 8.0.8]"
           }
         ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
